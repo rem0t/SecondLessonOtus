@@ -3,23 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31C3108A25EBDCBC0006B141 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3108925EBDCBC0006B141 /* RootView.swift */; };
+		31C3108D25EBDCE60006B141 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3108C25EBDCE60006B141 /* Router.swift */; };
+		31C3109325EBDEDA0006B141 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3109225EBDEDA0006B141 /* HomeScreen.swift */; };
+		31C3109725EBDF070006B141 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3109625EBDF070006B141 /* RecipesViewModel.swift */; };
+		31C3109B25EBE4630006B141 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3109A25EBE4630006B141 /* ProfileScreen.swift */; };
+		31C310A125EBE5850006B141 /* ProfileScreenContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310A025EBE5850006B141 /* ProfileScreenContents.swift */; };
+		31C310A425EBE8B80006B141 /* CustomNavControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310A325EBE8B80006B141 /* CustomNavControllerView.swift */; };
+		31C310A925EBE9F00006B141 /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310A825EBE9F00006B141 /* AnyTransition.swift */; };
+		31C310AD25EBEA210006B141 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310AC25EBEA210006B141 /* Array.swift */; };
+		31C310B025EBEA370006B141 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310AF25EBEA370006B141 /* Optional.swift */; };
+		31C310B325EBEA4A0006B141 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310B225EBEA4A0006B141 /* View.swift */; };
+		31C310B625EBEAE60006B141 /* ProfileInteriorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C310B525EBEAE60006B141 /* ProfileInteriorScreen.swift */; };
 		31FB72DE25B474D8006C10B5 /* SecondLessonOtusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB72DD25B474D8006C10B5 /* SecondLessonOtusApp.swift */; };
-		31FB72E025B474D8006C10B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB72DF25B474D8006C10B5 /* ContentView.swift */; };
 		31FB72E225B474DB006C10B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB72E125B474DB006C10B5 /* Assets.xcassets */; };
 		31FB72E525B474DB006C10B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB72E425B474DB006C10B5 /* Preview Assets.xcassets */; };
+		31FB72F425B4A9E7006C10B5 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 31FB72F325B4A9E7006C10B5 /* Networking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31C3108925EBDCBC0006B141 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		31C3108C25EBDCE60006B141 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		31C3109225EBDEDA0006B141 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		31C3109625EBDF070006B141 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		31C3109A25EBE4630006B141 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		31C310A025EBE5850006B141 /* ProfileScreenContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenContents.swift; sourceTree = "<group>"; };
+		31C310A325EBE8B80006B141 /* CustomNavControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavControllerView.swift; sourceTree = "<group>"; };
+		31C310A825EBE9F00006B141 /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
+		31C310AC25EBEA210006B141 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		31C310AF25EBEA370006B141 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		31C310B225EBEA4A0006B141 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		31C310B525EBEAE60006B141 /* ProfileInteriorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteriorScreen.swift; sourceTree = "<group>"; };
 		31FB72DA25B474D8006C10B5 /* SecondLessonOtus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondLessonOtus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FB72DD25B474D8006C10B5 /* SecondLessonOtusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLessonOtusApp.swift; sourceTree = "<group>"; };
-		31FB72DF25B474D8006C10B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31FB72E125B474DB006C10B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31FB72E425B474DB006C10B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31FB72E625B474DB006C10B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FB72F025B4A978006C10B5 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +51,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FB72F425B4A9E7006C10B5 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31C3109125EBDEBF0006B141 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31C3109225EBDEDA0006B141 /* HomeScreen.swift */,
+				31C3109625EBDF070006B141 /* RecipesViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		31C3109E25EBE5700006B141 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				31C3109A25EBE4630006B141 /* ProfileScreen.swift */,
+				31C310A025EBE5850006B141 /* ProfileScreenContents.swift */,
+				31C310B525EBEAE60006B141 /* ProfileInteriorScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		31C310A725EBE9D80006B141 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				31C310A825EBE9F00006B141 /* AnyTransition.swift */,
+				31C310AC25EBEA210006B141 /* Array.swift */,
+				31C310AF25EBEA370006B141 /* Optional.swift */,
+				31C310B225EBEA4A0006B141 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		31FB72D125B474D8006C10B5 = {
 			isa = PBXGroup;
 			children = (
 				31FB72DC25B474D8006C10B5 /* SecondLessonOtus */,
 				31FB72DB25B474D8006C10B5 /* Products */,
+				31FB72F225B4A9E7006C10B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +108,14 @@
 		31FB72DC25B474D8006C10B5 /* SecondLessonOtus */ = {
 			isa = PBXGroup;
 			children = (
+				31C310A725EBE9D80006B141 /* Extensions */,
+				31C3109125EBDEBF0006B141 /* Home */,
+				31FB72ED25B4A5AA006C10B5 /* Modules */,
 				31FB72DD25B474D8006C10B5 /* SecondLessonOtusApp.swift */,
-				31FB72DF25B474D8006C10B5 /* ContentView.swift */,
+				31C3108925EBDCBC0006B141 /* RootView.swift */,
+				31C3108C25EBDCE60006B141 /* Router.swift */,
+				31C310A325EBE8B80006B141 /* CustomNavControllerView.swift */,
+				31C3109E25EBE5700006B141 /* Profile */,
 				31FB72E125B474DB006C10B5 /* Assets.xcassets */,
 				31FB72E625B474DB006C10B5 /* Info.plist */,
 				31FB72E325B474DB006C10B5 /* Preview Content */,
@@ -67,6 +129,21 @@
 				31FB72E425B474DB006C10B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31FB72ED25B4A5AA006C10B5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				31FB72F025B4A978006C10B5 /* Networking */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		31FB72F225B4A9E7006C10B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +162,9 @@
 			dependencies = (
 			);
 			name = SecondLessonOtus;
+			packageProductDependencies = (
+				31FB72F325B4A9E7006C10B5 /* Networking */,
+			);
 			productName = SecondLessonOtus;
 			productReference = 31FB72DA25B474D8006C10B5 /* SecondLessonOtus.app */;
 			productType = "com.apple.product-type.application";
@@ -138,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31FB72E025B474D8006C10B5 /* ContentView.swift in Sources */,
+				31C310B325EBEA4A0006B141 /* View.swift in Sources */,
+				31C3108D25EBDCE60006B141 /* Router.swift in Sources */,
+				31C3109B25EBE4630006B141 /* ProfileScreen.swift in Sources */,
+				31C3109325EBDEDA0006B141 /* HomeScreen.swift in Sources */,
 				31FB72DE25B474D8006C10B5 /* SecondLessonOtusApp.swift in Sources */,
+				31C310A425EBE8B80006B141 /* CustomNavControllerView.swift in Sources */,
+				31C310AD25EBEA210006B141 /* Array.swift in Sources */,
+				31C310A125EBE5850006B141 /* ProfileScreenContents.swift in Sources */,
+				31C3109725EBDF070006B141 /* RecipesViewModel.swift in Sources */,
+				31C3108A25EBDCBC0006B141 /* RootView.swift in Sources */,
+				31C310B625EBEAE60006B141 /* ProfileInteriorScreen.swift in Sources */,
+				31C310A925EBE9F00006B141 /* AnyTransition.swift in Sources */,
+				31C310B025EBEA370006B141 /* Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +419,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31FB72F325B4A9E7006C10B5 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31FB72D225B474D8006C10B5 /* Project object */;
 }

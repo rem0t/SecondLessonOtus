@@ -11,7 +11,8 @@ import SwiftUI
 struct SecondLessonOtusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView().environmentObject(Router())
+                .environmentObject(RecipesViewModel())
         }
     }
 }
